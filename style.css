@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* gradasi ungu - pink - biru */
+  background: linear-gradient(135deg, purple, pink, deepskyblue);
+  overflow: hidden;
+   background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+#game-container {
+  width: 400px;
+  height: 500px;
+  background: linear-gradient(135deg, rgb(234, 255, 5), pink, deepskyblue);
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #333;
+  border-radius: 10px;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#bird {
+  width: 70px; /* sesuaikan ukuran gambar */
+  height: 70px;
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  background-color: transparent; /* hapus warna latar */
+  border-radius: 0; /* hilangkan border-radius */
+  background-image: url('Meme_12-removebg-preview.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.pipe {
+  width: 60px;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(180deg,#ffff00 0%, #00ddff 100%); /* gradasi hijau */
+  border-radius: 15px; /* sudut melengkung */
+  box-shadow: 2px 2px 5px rgb(238, 255, 0); /* bayangan */
+  border: 2px solid #0b3d0b; /* garis pinggir gelap */
+}
+
+#pipe-top {
+  top: 0;
+}
+
+#pipe-bottom {
+  bottom: 0;
+}
+
+
+#score {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}

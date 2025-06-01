@@ -1,0 +1,24 @@
+.pipe {
+  width: 60px;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(180deg, #fbff01 0%, #006400 100%); /* gradasi hijau */
+  border-radius: 15px; /* sudut melengkung */
+  box-shadow: 2px 2px 5px rgb(238, 255, 0); /* bayangan */
+  border: 2px solid #0b3d0b; /* garis pinggir gelap */
+}
+
+#pipe-top {
+  top: 0;
+}
+
+#pipe-bottom {
+  bottom: 0;
+}
+
+
+#score {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
